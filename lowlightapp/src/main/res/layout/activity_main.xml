@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <include layout="@layout/app_bar" />
+
+    <com.hdrcam.utils.TouchImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="550dp"
+        android:background="@color/colorBackground"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/noteTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text=""></TextView>
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="Save"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+</LinearLayout>

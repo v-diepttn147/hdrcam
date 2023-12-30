@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <item
+        android:width="521dp"
+        android:height="1014dp"
+        android:drawable="@drawable/logo_full_screen"
+        android:gravity="center" />
+</layer-list>

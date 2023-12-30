@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hdrcam.lowlight.MainActivity">
+
+    <item
+        android:id="@+id/action_enhance"
+        android:orderInCategory="300"
+        android:title="Enhance"
+        android:icon="@drawable/ic_baseline_highlight_24_disable"
+        android:enabled="false"
+        app:showAsAction="always">
+    </item>
+
+<!--    <item-->
+<!--        android:id="@+id/action_denoise"-->
+<!--        android:orderInCategory="300"-->
+<!--        android:title="Denoise"-->
+<!--        android:icon="@drawable/ic_baseline_filter_alt_24"-->
+<!--        android:enabled="true"-->
+<!--        app:showAsAction="always">-->
+<!--    </item>-->
+
+    <item
+        android:id="@+id/action_reset"
+        android:orderInCategory="300"
+        android:title="Reset"
+        android:icon="@drawable/ic_baseline_replay_24_disable"
+        android:enabled="false"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/action_camera"
+        android:orderInCategory="300"
+        android:title="Camera"
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/action_gallery"
+        android:orderInCategory="300"
+        android:title="Gallery"
+        android:icon="@drawable/ic_baseline_image_24"
+        app:showAsAction="always">
+    </item>
+</menu>
